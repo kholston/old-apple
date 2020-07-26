@@ -1,0 +1,68 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+body{
+  width: 1440px;
+  margin: 0 auto;
+  position: relative;
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  display: inline-block;
+}
+
+nav {
+  width: 980px;
+  height: 36px;
+  margin: 0 auto;
+  border: 3px outset black;
+  border-radius: 5px;
+  background-image: linear-gradient(#757575, #5e5e5e 50%,#707070 52%,#8b8b8b);
+  
+}
+nav ul{
+  margin: 0;
+  height: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav li{
+  padding-bottom: 5px;
+}
+nav a{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+.fa-apple{
+  font-size: 20px;
+  color: #e1e2e2; 
+  
+}
+.searchbar{
+  position: relative;
+}
+#search {
+  width: 106px;
+  border-radius: 20px;
+  background-color: transparent;
+}
+.fa-search{
+  position: absolute;
+  top: 3px;
+  left: 6px;
+  color: white;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-row: 3fr 1fr;
+}
