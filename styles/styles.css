@@ -114,16 +114,16 @@ nav a{
 }
 
 .bottom1{
-  background: url("/images/promo_iphone5s.jpg");
+  background: url("../images/promo_iphone5s.jpg");
 }
 .bottom2{
-  background: url("/images/promo_iphone5c.jpg");
+  background: url("../images/promo_iphone5c.jpg");
 }
 .bottom3{
-  background: url("/images/promo_30_years.jpg");
+  background: url("../images/promo_30_years.jpg");
 }
 .bottom4{
-  background: url("/images/promo_supplier_responsibility.jpg");
+  background: url("../images/promo_supplier_responsibility.jpg");
 }
 
 footer{
