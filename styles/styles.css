@@ -4,6 +4,7 @@
 }
 body{
   width: 1440px;
+  height: 830px;
   margin: 0 auto;
   position: relative;
 }
@@ -16,6 +17,9 @@ li{
   display: inline-block;
 }
 
+a{
+  text-decoration: none;
+}
 nav {
   width: 980px;
   height: 36px;
@@ -83,7 +87,24 @@ nav a{
   background: url("/images/your_verse_hero.jpg") 50% 100% no-repeat;
   background-size: 1440px 1315px;
 }
+.text{
+  color: white;
+  background-color: rgba(0,0,0,0.1);
+  width: 980px;
+  margin: 200px auto;
+  text-align: center;
+  font-weight: normal;
+}
+.text a{
+  color:white
+}
 
+.text h1{
+  font-size: 48px;
+}
+.text h1{
+  font-size: 25px;
+}
 .bottom-row{
   grid-area: bottom;
   display: grid;
@@ -103,4 +124,43 @@ nav a{
 }
 .bottom4{
   background: url("/images/promo_supplier_responsibility.jpg");
+}
+
+footer{
+  position: absolute;
+  bottom: 40px;
+  right: 0;
+  left: 0;
+  min-width: 980px;
+  font-size: 12px;
+  color: #6e6e6e;
+}
+
+footer a{
+  color: #08c;
+}
+footer li{
+  border-left: 1px solid #ccc;
+  padding-left: 2px;
+}
+.first{
+  border: none;
+}
+.wrapper{
+  width: 980px;
+  margin: 0 auto;
+}
+.contact{
+  float: left;
+  width: 49%;
+}
+.extra{
+  float: left;
+  text-align: right;
+  width: 51%;
+}
+.copyright{
+  clear: left;
+  display: flex;
+  padding-top: 5px;
 }
